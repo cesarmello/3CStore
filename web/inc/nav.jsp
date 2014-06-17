@@ -1,3 +1,4 @@
+<%@include file="inc/conn.jsp" %>
 <aside>
     <nav>
         <h2>Seções</h2>
