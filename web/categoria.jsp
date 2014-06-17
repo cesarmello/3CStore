@@ -3,6 +3,7 @@
 <%@include file="inc/nav.jsp" %>
 
 <section class="wrapper">
+    <%@include file="inc/slider.jsp" %>
     <%@include file="inc/sidebar.jsp" %>
     <div class="conteudo">
         
