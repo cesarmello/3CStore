@@ -1,4 +1,5 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@include file="inc/conn.jsp" %>
 <%@include file="inc/header.jsp" %>
 <link rel="stylesheet" href="css/jquery-ui.css" />
 <script src="js/jquery-1.9.1.js"></script>
@@ -8,6 +9,7 @@
         $("#tabs").tabs();
     });
 </script>
+
 <%@include file="inc/nav.jsp" %>
 
 <section class="wrapper">

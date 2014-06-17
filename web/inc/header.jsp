@@ -67,7 +67,7 @@
                 <nav class="nav-categorias">
                     <ul>
                         <c:forEach var="col3" items="${cat.rows}">
-                            <li><a class="cat01" href="#"><c:out value="${col3.categoria}"></c:out></a></li>
+                            <li><a class="cat01" href="categoria.jsp?id=<c:out value='${col3.idCategoria}'></c:out>"><c:out value="${col3.categoria}"></c:out></a></li>
                         </c:forEach>
                     </ul>
                 </nav>

@@ -1,4 +1,3 @@
-<%@include file="inc/conn.jsp" %>
 <aside>
     <nav>
         <h2>Seções</h2>
@@ -13,7 +12,7 @@
 
                 <c:forEach var="col2" items="${subCat.rows}">
                     <li>
-                        <a href="#">
+                        <a href="subCategoria.jsp?id=<c:out value='${col2.idSubCategoria}'></c:out>">
                             <c:out value="${col2.subCategoria}"></c:out>
                         </a>
                     </li>
