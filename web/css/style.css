@@ -1,0 +1,127 @@
+/*!
+ * 3C Store - Projeto de ED da Faculdade de Tecnologia ETEP
+ */
+
+/* GLOBAIS -------------------------------*/
+ body {background: #008479;}
+ .content {background: #fff; width: 940px; margin: auto; padding: 10px;}  
+ .clear {clear: both;}
+ 
+ /* HEADER -------------------------------*/
+ header {margin-bottom: 10px;}
+ header #logo {height: 90px; width: 175px; background: #ccc; overflow: hidden; float: left;}
+ header div.banner {height: 90px; width: 550px; margin-left: 25px; background: #eee; float: left;}
+
+div.login {width: 150px; float: left; margin-left: 20px;}
+div.login form {margin-bottom:0px;}
+.form-horizontal .controls {margin-left: 0px;}
+div.controls input#inputEmail,
+div.controls input#inputPassword {height: 15px; width: 140px; border-radius: none!important;}
+.form-horizontal .control-group {margin-bottom: 5px;}
+label#checkit {padding-top: 2px; width: 85px; float: left;}
+span#lembrar {font-size: 12px;}
+
+div.carrinho {width: 180px; float: right; font-size: 12px; text-align: center;}
+div.carrinho p#user {font-size: 14px}
+div.carrinho p {margin-bottom: 0px}
+div.carrinho img  {float: left;}
+div.carrinho a p  {margin-bottom: 0px; font-size: 14px; color: #999; margin-top: 5px}
+div.carrinho a p strong  {font-size: 16px;}
+
+ section.busca {height: 45px; width: 100%; background: #02a9a2; margin-top: 10px;}
+ section.busca p#frase {display: block; float: left; font-size: 18px; color: #fff; font-weight: bold; letter-spacing: -1px; padding:14px 12px 10px 12px; margin-bottom: 0;}
+ section.busca form {margin: 0 auto; padding: 9px 7px; display: block;}
+ section.busca form input.busca-produtos {width: 595px;}
+ section.busca form button.btn-busca-produtos {width: 115px;}
+
+ header nav.nav-categorias {width: 100%; background: #02a9a2; text-align: center;}
+ header nav.nav-categorias ul {margin: 0; padding: 0; list-style-type: none;}
+ header nav.nav-categorias ul li {display: inline-block; margin-bottom: 5px; } 
+ header nav.nav-categorias ul li a {display: inline-block; text-decoration: none; padding: 10px 13px;  color: #fff}
+ header nav.nav-categorias ul li:hover a {color: #fff;}
+
+ a.cat01:hover {background: #004845; }
+ a.cat02:hover {background: #51a351; }
+ a.cat03:hover {background: #f89406; }
+ a.cat04:hover {background: #bd362f; }
+
+ h3.tit-categoria-1 {color: #004845; }
+ h3.tit-categoria-2 {color: #51a351; }
+ h3.tit-categoria-3 {color: #f89406; }
+ h3.tit-categoria-4 {color: #bd362f; }
+
+/* SIDEBAR -------------------------------*/
+ aside {width: 175px; margin-right: 10px; float: left;}
+ aside nav {width: 175px; background: #E9E9E9; border-bottom: 0px solid #E9E9E9;}
+ aside nav h2 {background: #004845; color: #fff; font-size: 14px; width: 165px; padding-left: 10px; margin: 0;}
+ aside nav h3 {font-size: 14px; padding: 0 0 0 10px; margin: 0; color: #0475B3; line-height: 30px;}
+ aside nav ul {padding: 0px; margin: 0; list-style-type: none;}
+ aside nav ul li {padding: 3px 10px 3px 20px;}
+ aside nav ul li a {display: block; text-decoration: none; color:#777;}
+ aside nav ul li a:hover {text-decoration: none;}
+ aside nav ul li a:hover {text-decoration: none;}
+ aside nav ul li:hover {background: #ccc; color: #777;}
+ aside nav ul li:hover > a {color: #333;}
+
+ /* CONTENT  -------------------------------*/
+ section.wrapper div.slider {height: 265px; width: 755px; float: right; background: #0180C8; margin-bottom: 10px;}
+
+ section.wrapper div.conteudo {float: right; width: 590px;}
+ section.wrapper div.conteudo h3 {width: 580px; padding: 2px 5px; margin: 0 0 10px 0; background: #004845; color: #fff; font-size: 16px; line-height: 30px; text-align: center;}
+ section.wrapper div.conteudo ul.prdtos {margin:0; padding: 0; list-style-type: none; border: none;}
+ section.wrapper div.conteudo ul.prdtos li {height: 180px; width: 135px; display: block; float: left; background: #fff; margin:0; padding: 0; border: none; border: 1px solid #ccc; margin: 0 13px 10px 0; text-align: center;}
+ section.wrapper div.conteudo ul.prdtos li img {height: 100px; width: 120px; display: block; background: #eee; margin: 5px auto;}
+ section.wrapper div.conteudo ul.prdtos li strong {font-size: 16px;}
+ section.wrapper div.conteudo ul.prdtos li:hover {border: 1px solid #777;}
+ section.wrapper div.conteudo ul.prdtos li:last-child {margin-right: 0px;}
+ section.wrapper div.conteudo ul.prdtos li a {text-decoration: none;}
+
+ section.wrapper div.sidebar2 {float: right; height: 610px; width: 155px; background: #ddd; margin-left: 10px;}
+
+ div#copyright {text-align: center;}
+
+
+ /* FOOTER -------------------------------*/
+ footer {}
+ footer section.busca {background: #02a9a2; margin-bottom: 10px;}
+
+ footer section#infos {background: #F2F2F2; padding-top: 10px }
+ footer section#infos div.opcoes-pgto {width: 450px;  float: left; margin-right: 60px; padding-right: 5px; border-right: 1px solid #ddd;}
+ footer section#infos div.opcoes-pgto p {text-align: center; font-weight: bold;}
+ footer section#infos div.opcoes-pgto ul {list-style-type: none; text-align: center;}
+ footer section#infos div.opcoes-pgto ul li {float: left; padding: 10px}
+
+ footer section#infos div#informacoes {width: 330px; float: left;}
+ footer section#infos div#informacoes ul {margin: 0; padding: 0px; list-style-type: none; float: left; margin-right: 20px}
+ 
+ footer section#infos div#social {float: right;}
+ footer section#infos div#social ul {margin: 0; padding: 0px; list-style-type: none; margin-right: 20px}
+ footer section#infos div#social ul li a.social-btn {display: block; width: 30px; height: 30px;}
+ footer section#infos div#social ul li a.f {background: url(../img/social.png) 0 -3px;}
+ footer section#infos div#social ul li a.t {background: url(../img/social.png) 0 32px;}
+ footer section#infos div#social ul li a.g {background: url(../img/social.png) 0 65px;}
+
+ footer section#infos div#copyright p {font-weight: bold; padding: 10px 0; margin-bottom: 0;}
+
+ /* INTERNAS
+ -------------------------------*/
+ div.spacer {display: block; height:20px;}
+ div.conteudo p.breadcrumbs {font-size: 12px; margin-bottom: 0;}
+ div.conteudo h3#categoria-info {background: #004845;}
+
+ div.produto-destaque {float: left; margin-right: 10px;}
+ div.produto-destaque img {border: 2px solid #E9E9E9;}
+ div.produto-descricao {width: 300px; float: left;}
+ div.produto-descricao h4 {font-size: 24px; margin: 5px 0px; letter-spacing: -1px; color: #004845; border-bottom: 0px solid #E9E9E9; display: block; padding-bottom: 5px;}
+ div.produto-descricao p.especificacoes {font-size: 18px; letter-spacing: -1px; color: #888;}
+
+ div.produto-descricao p#preco {font-size: 24px; letter-spacing: -1px; color: green;}
+
+ ul.carrinho {list-style-type: none; margin: 0;}
+ ul.carrinho li {margin-bottom: 10px; border: 1px solid #999; padding: 5px 20px;}
+ ul.carrinho li img {height: 100px; float: left; margin-right: 10px; clear: both;}
+ ul.carrinho li div.produto-descricao p {font-size: 12px; margin: 0px;}
+
+ div.qtde {margin: 30px 0 0 10px;}
+ input#campo-qtde1 {width: 20px; float: left;}
+ a.btn-comprar {margin: 0;}
