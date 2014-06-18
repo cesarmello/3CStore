@@ -27,7 +27,7 @@
                 </div>
                 <div class="banner">
                     <a href="http://www.intel.com.br" target="_blank" title="Promoção incrivel...Aproveite">
-                        <img src="img/ban728x90/banner.jpg" alt="">
+                        <img src="img/banner/banner1.jpg" alt="">
                     </a>
                 </div>
 
