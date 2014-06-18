@@ -69,7 +69,7 @@ div.carrinho a p strong  {font-size: 16px;}
  section.wrapper div.conteudo {float: right; width: 590px;}
  section.wrapper div.conteudo h3 {width: 580px; padding: 2px 5px; margin: 0 0 10px 0; background: #004845; color: #fff; font-size: 16px; line-height: 30px; text-align: center;}
  section.wrapper div.conteudo ul.prdtos {margin:0; padding: 0; list-style-type: none; border: none;}
- section.wrapper div.conteudo ul.prdtos li {height: 180px; width: 135px; display: block; float: left; background: #fff; margin:0; padding: 0; border: none; border: 1px solid #ccc; margin: 0 13px 10px 0; text-align: center;}
+ section.wrapper div.conteudo ul.prdtos li {height: 180px; width: 132px; display: block; float: left; background: #fff; margin:0; padding: 0; border: none; border: 1px solid #ccc; margin: 0 13px 10px 0; text-align: center;}
  section.wrapper div.conteudo ul.prdtos li img {height: 100px; width: 120px; display: block; background: #eee; margin: 5px auto;}
  section.wrapper div.conteudo ul.prdtos li strong {font-size: 16px;}
  section.wrapper div.conteudo ul.prdtos li:hover {border: 1px solid #777;}
